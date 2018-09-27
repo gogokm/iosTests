@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  TextLanuch
+
+  Created by fdt on 2017/4/27.
+  Copyright © 2017年 fdt. All rights reserved.
+*/
+UILaunchStoryboardName = "Storyboard-Hans";
+CFBundleDisplayName = "测试";

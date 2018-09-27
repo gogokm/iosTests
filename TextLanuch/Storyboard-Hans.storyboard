@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NUN-Ab-dpH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="l9O-Nd-ZYj">
+            <objects>
+                <viewController id="NUN-Ab-dpH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f1t-CL-w6G"/>
+                        <viewControllerLayoutGuide type="bottom" id="BiV-WP-k7O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iTT-72-9ap">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="汉语" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhT-bD-RaP">
+                                <rect key="frame" x="50" y="71" width="275" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8or-ic-ubh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_splash_footer-Hans.png" translatesAutoresizingMaskIntoConstraints="NO" id="tyi-o5-rSW">
+                                <rect key="frame" x="0.0" y="539" width="375" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="R9F-yh-mbB"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QhT-bD-RaP" firstAttribute="top" secondItem="f1t-CL-w6G" secondAttribute="bottom" constant="51" id="ATQ-aY-ffs"/>
+                            <constraint firstAttribute="trailing" secondItem="QhT-bD-RaP" secondAttribute="trailing" constant="50" id="Go6-FO-IaO"/>
+                            <constraint firstItem="tyi-o5-rSW" firstAttribute="leading" secondItem="iTT-72-9ap" secondAttribute="leading" id="HE7-9a-1J0"/>
+                            <constraint firstItem="QhT-bD-RaP" firstAttribute="leading" secondItem="iTT-72-9ap" secondAttribute="leading" constant="50" id="J0w-Oz-NwM"/>
+                            <constraint firstItem="BiV-WP-k7O" firstAttribute="top" secondItem="tyi-o5-rSW" secondAttribute="bottom" id="WnU-vB-DQj"/>
+                            <constraint firstAttribute="trailing" secondItem="tyi-o5-rSW" secondAttribute="trailing" id="s8k-CU-hBx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dw1-hw-fTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-520" y="1341"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_splash_footer-Hans.png" width="375" height="127"/>
+    </resources>
+</document>
